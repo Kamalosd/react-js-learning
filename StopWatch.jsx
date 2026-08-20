@@ -57,9 +57,9 @@ useEffect(()=>{
       <div className='controls flex items-center gap-[15px]'>
         <button onClick={handleStart} className=' cursor-pointer px-4 py-2 bg-green-400 rounded-2xl hover:bg-green-800 transition-colors duration-500'>start</button>
 
-        <button onClick={handleEnd} className=' cursor-pointer px-4 py-2 bg-red-400  rounded-2xl hover:bg-red-700 transition-colors duration-500'>end</button>
+        <button onClick={handleEnd} className=' cursor-pointer px-4 py-2 bg-red-400  rounded-2xl hover:bg-red-700 transition-colors duration-500'>Stop</button>
 
-        <button onClick={handleReset} className=' cursor-pointer px-4 py-2 bg-blue-500 rounded-2xl hover:bg-blue-800 transition-colors duration-500'>reset</button>
+        <button onClick={handleReset} className=' cursor-pointer px-4 py-2 bg-blue-500 rounded-2xl hover:bg-blue-800 transition-colors duration-500'>Reset</button>
 
       </div>
       
